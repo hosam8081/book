@@ -1,0 +1,29 @@
+.contact{
+    background:$body-color-2;
+    .form-group{
+        padding:0 5px;
+    }
+    .form-control{
+        padding: 12px 14px;
+        margin-bottom:27px;
+        width: 100%;
+        border: none;
+        outline: none;
+    }
+    .card{
+        background-color: transparent;
+    }
+
+    #{&}-heading{
+        font-size: 40px;
+        line-height: 50px;
+        padding-right: 74px;
+    }
+
+}
+
+@media (max-width:991px) {
+    .contact .contact-heading {
+        padding-right: 0;
+    }
+}

@@ -1,0 +1,47 @@
+/* NAVBAR */
+.navbar{
+    #{&}-center{
+        .navbar-header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding:2rem 0;
+        }
+    }   
+    #{&}-nav{
+        background: $clr-dark;
+        display: none;
+
+        li a{
+            display: block;
+            color:$clr-light;
+            padding:0.5rem 1rem;
+            text-align:center;
+            text-transform: capitalize;
+            font-size:1.125rem;
+        }
+    }
+}
+
+@media (min-width: 575px) {
+    .navbar{
+        #{&}-center{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #{&}-header{
+            .btn{
+                display:none;
+            }
+        }
+        #{&}-nav{
+            display: flex;
+            background: transparent;
+
+            li a {
+                color:$clr-light;
+            }
+        }
+    }
+}

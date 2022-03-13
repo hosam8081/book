@@ -1,0 +1,24 @@
+.about{
+    background-color: $body-color-2;
+    h2.heading-center{
+        padding-bottom:50px;
+        color:$main-color
+    }
+    h2{
+        padding:15px 0;
+        color:$clr-light;
+    }
+    p{
+        font-size: 15px;
+        line-height: 1.4;
+        color:rgba(238, 238, 238, 0.5);
+    }
+    .icon{
+        background: $main-color;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        line-height: 80px;
+    }
+    
+}
